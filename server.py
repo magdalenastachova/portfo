@@ -20,6 +20,7 @@ def write_to_csv(new_data):
     data_file.close()
 
 
+
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
     if request.method=="POST":
